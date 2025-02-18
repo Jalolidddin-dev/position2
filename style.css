@@ -1,0 +1,119 @@
+.box1 {
+  width: 300px;
+  height: 300px;
+  background-color: red;
+  box-sizing: border-box;
+  position: relative;
+}
+.box2 {
+  width: 80px;
+  height: 80px;
+  background-color: blue;
+  position: absolute;
+  top: 40px;
+  right: 20px;
+}
+.box3 {
+  width: 80px;
+  height: 80px;
+  background-color: green;
+  position: absolute;
+  top: 40px;
+  left: 20px;
+}
+
+.box4 {
+  clip-path: polygon(74% 1%, 91% 51%, 71% 100%, 52% 100%, 68% 48%, 52% 0);
+  width: 100px;
+  height: 200px;
+  background-color: white;
+  position: absolute;
+  top: 80px;
+  left: 100px;
+  transform: rotate(90deg);
+}
+
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  font-family: sans-serif;
+}
+
+.card_shop {
+  width: 300px;
+  margin: 100px;
+}
+
+.card_header img {
+  filter: blur(1px);
+  width: 100%;
+}
+.card_header {
+  position: relative;
+}
+.card_icons {
+  position: absolute;
+  top: 20px;
+  right: 20px;
+}
+
+.icon_like,
+.icon_chart {
+  padding: 8px 10px;
+  border-radius: 50%;
+  background-color: white;
+}
+.icon_chart {
+  margin-top: 15px;
+}
+.card_title {
+  margin-top: 10px;
+}
+
+.cost {
+  margin-top: 30px;
+}
+
+.cost p {
+  background-color: #ffd740;
+  display: inline-block;
+  padding: 2px 6px;
+  border-radius: 4px;
+  margin-top: 10px;
+}
+
+.card_footer {
+  margin-top: 50px;
+  display: flex;
+  gap: 10px;
+}
+
+.shopping_btn {
+  padding: 7px 7px;
+  background-color: white;
+  border-radius: 5px;
+  border: 2px solid black;
+}
+
+.shopping_btn:hover {
+  background-color: rgb(235, 235, 235);
+}
+
+.shopping_btn i {
+  font-size: 18px;
+}
+
+.kredit_btn {
+  width: 100%;
+  border-radius: 6px;
+  padding: 7px 0;
+  font-size: 18px;
+  background-color: white;
+  color: rgb(226, 17, 73);
+  border: 2px solid rgb(226, 17, 73);
+}
+
+.kredit_btn:hover {
+  background-color: rgb(251, 236, 241);
+}
